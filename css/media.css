@@ -1,0 +1,94 @@
+@media(min-width: 200px) and (max-width: 600px){
+    
+    main#main{
+        width: 100%;
+        height: 1000px;
+        background-position: center;
+        background-size: 1000px 1000px;
+        overflow: hidden;
+    }
+
+    img.img01{
+        width: 80px;
+        height: 80px;
+    }
+    h2.texto{
+        font-size: 40px;
+    }
+
+    /* SEÇÃO TITULO */
+
+    section#conTitulo1{
+        height: 80px;
+    }
+
+    img.icone1{
+        width: 30px;
+        height: 30px;
+    }
+    h1#texto1{
+        font-size: 20px;
+    }
+
+    /* SECTION CORPO */
+    div.conPar{
+        width: 90%;
+    }
+
+    p.par1{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    input#caixaData{
+        width: 100px;
+        height: 40px;
+    }
+    img#botAplicar{
+        width: 50px;
+        height: 50px; 
+    }
+    h2#msg{
+        font-size: 15px;
+    }
+    section#contApi{
+        display: flex;
+        flex-direction: column;
+    }
+    div#midiaApi{
+        width: 90%;
+
+    }
+    div#info{
+        width: 90%;
+    }
+    img#img{
+        width: 150px;
+        height: 150px;
+    }
+    iframe#video{
+        width: 150px;
+        height: 150px;
+    }
+    span#nomeImg{
+        font-size: 9px;
+    }
+    span#descricaoImg{
+        font-size: 9px;
+    }
+
+    p.info{
+        font-size: 10px;
+    }
+
+    div.linkRep{
+        height: 100px;
+    }
+    img.iconeRed{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+    

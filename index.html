@@ -4,10 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;500;700&family=Economica&family=Josefin+Slab:wght@200;300;400;700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/media.css">
+    
     <title>Floating in the stars</title>
+
 </head>
-<body>
-    <h1>hola</h1>
-    <script src=""></script>
+
+
+<body id="root">
+    <main id="main">
+        <header>
+            <div class="barraNav">
+                <img class="img01" src="media/icones/space-travel (1).png" alt="Logo floating in the stars">
+                
+                <h2 class="texto">FITS</h2>
+            </div>
+            
+        </header>
+
+        <section id="conTitulo1">
+            <img src="media/icones/explosion.png" alt="icone de electron" class="icone1">
+            <h1 id="texto1">Floating In The Stars</h1>
+            <img src="media/icones/explosion.png" alt="icone de electron" class="icone1">
+        </section>
+
+        <section id="corpo">
+            <div class="conPar">
+                <p class="par1">Um projeto desenvolvido junto ao API da nasa APOD, para você descubrir uma nova imagem do espaço a cada dia!</p>
+            </div>
+            <div id="botData">
+                <input type="date" name="data" id="caixaData" min="1995-06-16">
+            </div>
+            <div id="ContBotAp">
+                <img src="media/icones/galaxy.png" alt="boton observatorio" id="botAplicar">
+                <h2 id="msg">...</h2>
+            </div>
+        </section>   
+
+        <section id="contApi">
+            <div id="midiaApi">
+                <img src="" alt="" id="img">
+                <iframe src="" frameborder="0" id="video"></iframe>
+            </div>
+            
+            <div id="info">
+                <div class="espacotext">
+                    <h2 id="texto2"><span id="nomeImg"></span></h2>
+                </div>
+                <div class="espacotext">
+                    <p id="par2"><span id="descricaoImg"></span></p>
+                </div>
+            </div>
+        </section>    
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p class="info">Direitos Reservados</p>
+            <p class="info">Aproveite e de uma olhada no meu portafolio!</p>
+        </div>
+        
+        <div class="linkRep">
+            <a href="https://github.com/Danielysdavils" target="_blank"><img src="media/github-sign.png" alt="icone do GitHub" class="iconeRed"></a>
+            <a href="https://www.linkedin.com/in/danielys-davila/" target="_blank"><img src="media/linkedin.png" alt="icone do linkedin" class="iconeRed"></a>
+            <a href="https://api.nasa.gov/" target="_blank"><img src="media/icones/nasa-282190 (1).png" alt="icone da NASA" class="iconeRed"></a>
+        </div>
+    </footer>
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+
 </body>
 </html>
